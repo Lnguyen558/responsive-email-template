@@ -1,0 +1,59 @@
+
+/* removing margin and padding in body */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/* format container */
+.container
+{
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+/* format outer pannel */
+.outer-pannel
+{
+    width: 60%;
+   
+   
+}
+
+/* format inner pannel */
+.inner-pannel
+{
+background-color: teal;
+box-shadow: 1px;
+margin-bottom: 30px;
+box-shadow: 1px 2px 10px rgb(131, 8, 8);
+}
+
+/* fomrat font size for paragraph */
+p{
+    font-size: 12px;
+}
+
+/* make headline color */
+h6{
+    color: orangered;
+}
+
+/* make logo color and bigger size */
+
+i{
+    color: orangered;
+    font-size: 50px;
+}
+
+/* format link */
+a
+{
+color: white;
+}
+/* fomrat link to change color when hover */
+a:hover
+{
+    background-color: limegreen;
+    color: red;
+}
